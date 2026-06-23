@@ -1,0 +1,36 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --ink:      #0D0D0D;
+  --paper:    #F7F4EE;
+  --sauce:    #C8392B;
+  --sauce-lt: #F2D9D7;
+  --gold:     #D4A017;
+  --gold-lt:  #FBF3DC;
+  --slate:    #2B2D42;
+  --mist:     #E8E4DC;
+  --smoke:    #6B6B6B;
+  --white:    #FFFFFF;
+
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-mono:    'Space Mono', monospace;
+
+  --r-sm: 6px;
+  --r-md: 12px;
+  --r-lg: 20px;
+}
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-display);
+  background: var(--paper);
+  color: var(--ink);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--mist); }
+::-webkit-scrollbar-thumb { background: var(--smoke); border-radius: 3px; }
