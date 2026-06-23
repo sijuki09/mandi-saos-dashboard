@@ -194,7 +194,7 @@ export default function App() {
               borderLeft: '5px solid ' + C.red,
             }}>
               <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: C.orange, marginBottom: 8 }}>
-                Realisasi 4 Hari Operasional
+                Realisasi 4 Minggu Operasional
               </div>
               <div style={{ fontSize: 32, fontWeight: 800, letterSpacing: '-0.03em', marginBottom: 4 }}>
                 Total Pemasukan: <span style={{ color: C.orange }}>Rp2.023.000</span>
@@ -578,7 +578,7 @@ export default function App() {
               <div style={{ background: '#FFF8EC', borderRadius: 8, padding: '14px 18px', border: '1px solid #F5D78A' }}>
                 <div style={{ fontSize: 12, fontWeight: 700, color: '#92600A', marginBottom: 4 }}>Catatan</div>
                 <div style={{ fontSize: 12, color: '#6B4A0F', lineHeight: 1.7 }}>
-                  Dari 142 porsi yang terjual selama 4 hari operasional, profit kotor aktual Rp545.990
+                  Dari 142 porsi yang terjual selama 4 minggu operasional, profit kotor aktual Rp545.990
                   sudah menutup <strong>62.8%</strong> dari modal awal. Konsistensi kehadiran berjualan
                   adalah kunci mencapai BEP secepatnya.
                 </div>
